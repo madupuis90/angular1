@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { state$ } from '@app/util';
 
 @Component({
   selector: 'app-list',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./list.component.scss']
 })
 export class ListComponent {
-
+  state2$ = state$;
 }

@@ -6,7 +6,7 @@ import { EmptyRouteComponent } from './empty-route/empty-route.component';
 
 const routes: Routes = [
   {
-    path: 'list',
+    path: 'angular1/list',
     component: ListComponent,
   },
   {
@@ -14,6 +14,7 @@ const routes: Routes = [
     component: EmptyRouteComponent,
   }
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
